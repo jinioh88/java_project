@@ -11,7 +11,7 @@ import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-public class BankTransactionAnalyzerSimple {
+public class BankTransactionAnalyzer {
     private static final String RESOURCES = "src/main/resources"/;
 
     public static void main(String[] args) throws IOException {
