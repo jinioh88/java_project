@@ -2,6 +2,7 @@ package com.example.java_project;
 
 import java.time.Month;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class BankStatementProcessor {
     private final List<BankTransaction> bankTransactions;
@@ -43,4 +44,5 @@ public class BankStatementProcessor {
 
         return total;
     }
+
 }

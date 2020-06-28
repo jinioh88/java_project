@@ -2,6 +2,7 @@ package com.example.java_project;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.time.LocalDate;
@@ -9,8 +10,9 @@ import java.time.LocalDate;
 @Data
 @ToString
 @EqualsAndHashCode
+@NoArgsConstructor
 public class BankTransaction {
-    private final LocalDate date;
-    private final double amount;
-    private final String description;
+    private LocalDate date;
+    private double amount;
+    private String description;
 }
