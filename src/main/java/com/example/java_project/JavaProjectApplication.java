@@ -14,6 +14,8 @@ public class JavaProjectApplication {
         final BankStatementParser bankStatementParser = new BankStatementCSVParser();
 
         bankTransactionAnalyzer.analize("bank-data-simple.csv", bankStatementParser);
+
+
     }
 
 }
